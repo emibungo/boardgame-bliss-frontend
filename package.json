@@ -7,9 +7,10 @@
     "start": "webpack-dev-server --mode development --content-base docs/ --open --hot"
   },
   "dependencies": {
-    "webpack": "^4.41.2"
+    "webpack-dev-server": "^3.9.0"
   },
   "devDependencies": {
+    "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
   "repository": {

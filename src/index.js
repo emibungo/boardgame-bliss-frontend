@@ -1,19 +1,6 @@
-import { create } from "istanbul-reports";
+const Deact = require("../libs/deact");
+const App = require("./components/App");
 
-const entry = document.querySelector(".app");
-render(create("header", ("h1", "Hello WOrld")), entry);
 
-function render(child, parent) {
-  parent.append(child);
-}
 
-function create(element, content) {
-  const createdElement = document.createElement(element);
-
-  if (content instanceof String) {
-    createdElement.innerHTML = content;
-  } else {
-    createdElement.append(content);
-  }
-  return createdElement;
-}
+Deact.render(App(), document.querySelector(".app")
