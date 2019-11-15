@@ -1,6 +1,6 @@
 module.exports = {
-  async render(child, parent) {
-    parent.append(await child);
+  render(child, parent) {
+    parent.append(child);
   },
   create(element, attributes = {}, content) {
     const createdElement = document.createElement(element);
