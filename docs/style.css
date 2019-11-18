@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: slategray;
+  background-image: url("./img/swirl_pattern.png");
+  padding: 0;
+}
+
+.header {
+  font-size: 4rem;
+  padding: 1rem;
+  text-align: center;
+}

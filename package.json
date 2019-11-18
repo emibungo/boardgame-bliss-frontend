@@ -1,0 +1,26 @@
+{
+  "name": "cyoa-front-end-emi-cristina",
+  "version": "1.0.0",
+  "description": "Link to BE https://github.com/WeCanCodeIT/cyoa-api-edition-emi-cristina.git",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --content-base docs/ --open --hot"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crismagu/cyoa-front-end-emi-cristina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crismagu/cyoa-front-end-emi-cristina/issues"
+  },
+  "homepage": "https://github.com/crismagu/cyoa-front-end-emi-cristina#readme"
+}
