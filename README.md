@@ -1,1 +1,5 @@
-Link to BE https://github.com/WeCanCodeIT/cyoa-api-edition-emi-cristina.git
+# Boardgame Bliss
+
+## Your source for boardgame nirvana
+
+Link to BE https://github.com/emibungo/boardgame-bliss-backend
